@@ -50,7 +50,7 @@ This will help you compare precision, recall, mAP, and loss curves
 
 ### ✅ Step 3: Test Inference
 
-Video sample for inference is Inference/street.mp4. Run the inference script:
+Video sample for inference: `Inference/street.mp4`. Run the inference script:
 
 ```bash
 Inference/yolo11/person_counter.ipynb
