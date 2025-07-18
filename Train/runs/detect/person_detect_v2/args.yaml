@@ -13,7 +13,7 @@ cache: false
 device: '0'
 workers: 16
 project: runs/detect
-name: person_detect_v22
+name: person_detect_v2
 exist_ok: false
 pretrained: true
 optimizer: AdamW
@@ -28,12 +28,7 @@ resume: false
 amp: true
 fraction: 1.0
 profile: false
-freeze:
-- model.10.
-- model.11.
-- model.12.
-- model.13.
-- model.14.
+freeze: null
 multi_scale: false
 overlap_mask: true
 mask_ratio: 4
@@ -107,4 +102,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: runs\detect\person_detect_v22
+save_dir: runs\detect\person_detect_v2
