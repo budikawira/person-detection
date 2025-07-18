@@ -7,6 +7,8 @@ This project explores object detection focused on detecting **persons** in image
 - `Train/yolo11.ipynb`: Training notebook for YOLOv11.
 - `Train/yolo11n.ipynb`: Training notebook for YOLOv11n (lightweight model).
 - `Train/tensorboard.ipynb`: View training logs and metrics with TensorBoard.
+- `Inference/yolo11/person_counter.ipynb`: Inference test with a sample video.
+- `Person detection.pptx`: Summary and conclusion of the experiment
 
 ---
 
